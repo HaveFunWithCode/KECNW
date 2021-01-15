@@ -1,4 +1,4 @@
-**KECNW**
+# **KECNW**
 
 This repository implements the proposed models in the paper 
 
@@ -25,18 +25,26 @@ This repository implements the proposed models in the paper
    
    -w: list of desired weighting criterias with dash as spliter (ex: DC-SC-Neigh_Imp-F-L-TF)
    
-      **DC: Distance from central node
-   
-      SC: Selectivity Centrality:
-      Neigh_Imp: Importance of neighboring nodes
-   
-      F :  Position of a node (nf/freq(i), where, nf is the number of times i is the first word)
-      freq(i) is the frequency of the term i
-   
-      L :  Position of a node (nl/freq(i), where, nl is the number of times i is the last word)
-      freq(i) is the frequency of the term i
-   
-      TF: Term frequency**
+   **DC**: Distance from central node
+
+   **SC**: Selectivity Centrality:
+   Neigh_Imp: Importance of neighboring nodes
+
+   **F** :  Position of a node (nf/freq(i), where, nf is the number of times i is the first word)
+   freq(i) is the frequency of the term i
+
+   **L** :  Position of a node (nl/freq(i), where, nl is the number of times i is the last word)
+   freq(i) is the frequency of the term i
+
+   **TF**: Term frequency
+
+---
+
+
+
+**output**
+
+
 the output would be list of weighted keywords:
 
 `
