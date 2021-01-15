@@ -1,0 +1,8 @@
+venv
+*.ipynb
+.ipynb_checkpoints
+preprocessor2
+.idea
+data/trump_20200530.csv
+
+
