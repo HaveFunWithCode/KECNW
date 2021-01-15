@@ -51,3 +51,6 @@ the output would be list of weighted keywords:
 [('Trump', 0.5503164870433442), ('fact', 0.42678799899425307), ('George', 0.32278482851305984), ('us', 0.32000000000000006), ('Floyd', 0.26582279995193164), ('Minneapolis', 0.2441229795476923), ('Plus', 0.22967080346226096), ('check', 0.17492089603979788), ('Guard', 0.17088608568338465), ('National', 0.17088608568338465)]
 `
 
+**License**
+
+This repository follows the BSD license.
