@@ -23,9 +23,9 @@ This repository implements the proposed models in the paper
    
    -t: text field name like "text"
    
-   -w: list of weighting criterias with dash as spliter (ex: DC-SC-Neigh_Imp-F-L-TF)
+   -w: list of desired weighting criterias with dash as spliter (ex: DC-SC-Neigh_Imp-F-L-TF)
    
-      DC: Distance from central node
+      **DC: Distance from central node
    
       SC: Selectivity Centrality:
       Neigh_Imp: Importance of neighboring nodes
@@ -36,7 +36,7 @@ This repository implements the proposed models in the paper
       L :  Position of a node (nl/freq(i), where, nl is the number of times i is the last word)
       freq(i) is the frequency of the term i
    
-      TF: Term frequency
+      TF: Term frequency**
 the output would be list of weighted keywords:
 
 `
