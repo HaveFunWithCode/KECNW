@@ -33,7 +33,8 @@ class KECNW():
 
         self.generate_candidates()
         self.node_weight_assignment()
-
+    def show_word_graph(self):
+        nx.draw(self.graph)
     def build_graph(self):
         """
         Phase 2: textual graph representation and
@@ -245,6 +246,7 @@ class KECNW():
 
         final_weights_atts = {}
         for node in self.graph.nodes():
+
             _node_final_weight = (self.graph.nodes[node]['Node_weight'] - min_weight) / (max_weight - min_weight)
             final_weights_atts[node] = {'Final_weight': _node_final_weight}
 

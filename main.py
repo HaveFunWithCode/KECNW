@@ -1,6 +1,13 @@
 import argparse
+import matplotlib.pyplot as plt
+import networkx
 import pandas as pd
 from src import KECNW
+
+
+import pylab as plt
+from networkx.drawing.nx_agraph import graphviz_layout, to_agraph
+
 
 if __name__=="__main__":
     ap = argparse.ArgumentParser()
@@ -27,4 +34,14 @@ if __name__=="__main__":
     print('Extracted keywords .......')
     keys = g.keyword_extraction(n_best=int(_n_best))
     print(keys)
+
+    # plt.figure(figsize=(20, 20))
+    # # plt.title("components{0}".format(i))
+    # networkx.draw_networkx(g.graph)
+    # plt.show()
+
+    A = to_agraph(g.graph)
+    print(A)
+    A.layout('dot')
+    A.draw('abcd.png')
 
